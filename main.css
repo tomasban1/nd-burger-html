@@ -1,0 +1,29 @@
+
+.button {
+    background-color: #F06C4E;
+    padding-top: 13px;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-bottom: 13px;
+    text-decoration: none;
+    margin-right: 13px;
+    color: white;
+    border-radius: 12px;
+}
+.button:last-child{
+    background-color: #FEF0ED;
+    color: #F06C4E;
+}
+
+
+
+.poimg {
+    background-color: white; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+    margin-left: 20px;
+}
