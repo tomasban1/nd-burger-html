@@ -8,47 +8,38 @@
     <link rel="stylesheet" href="main.css">
 </head>
 
-<body>
-    <div style="display: flex; margin-top: 50px;">
-        <div><img style="margin-top: 10px;" src="./img/Untitled.png" alt=""></div>
-        <div style="display: flex; font-size: 18px; font-weight: bold;">
-            <p style="margin-left: 100px;">Home</p>
-            <p style="margin-left: 100px; color: #439966;">Products</p>
-            <p style="margin-left: 100px;">Recipies</p>
-            <p style="margin-left: 100px;">About</p>
+<body class="pagr">
+    <aside class="sonas">
+        <img class="search" src="./img/Untitled.png" alt="">
+        <img class="keturi" src="./img/keturi.png" alt="">
+    </aside>
+    <main>
+        <div class="menu">
+            <a class="link" style="margin-left: 40px;" href="#">Home</a>
+            <a class="link" style="color: #439966;" href="#">Products</a>
+            <a class="link" href="#">Recipies</a>
+            <a class="link" href="#">About</a>
+            <a class="inOut" style="color: #F06C4E;" href="#">Sign up</a>
+            <a class="inOut" style="background-color:#F06C4E; color: #FEF0ED;" href="#">Log in</a>
         </div>
-        <div style="margin-left: 40%; margin-top: 10px; font-size: 18px;">
-            <a class="button" href="#">Log in</a>
-            <a class="button" href="#">Sign up</a>
+        <div class="pagrburger">
+            <img class="bigburger" src="./img/burger.png" alt="">
+            <p class="burgertitle">Classic burger</p>
+            <div class="sudetis">
+                <p class="medziagos">Fat - <strong>26g</strong></p>
+                <p class="medziagos">Saturates - <strong>10g</strong></p>
+                <p class="medziagos">Sugars - <strong>18g</strong></p>
+                <p class="medziagos">Salt - <strong>1g</strong></p>
+            </div>
+            <div class="description">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ex minima quae harum reiciendis, reprehenderit esse corporis
+                    officia cum! Laudantium distinctio minima cumque, enim culpa
+                    aliquid autem, molestias soluta hic placeat, ad dolore quibusdam.
+                    At voluptatem corrupti, porro nesciunt ipsa aspernatur.</p>
+            </div>
         </div>
-    </div>
-    <div style="margin-left: 165px; margin-top: 50px; display: inline-block;">
-        <div><img src="./img/burger.png" alt=""></div>
-        <div style="display: flex;">
-            <p class="poimg">Fat - <strong>26g</strong></p>
-            <p class="poimg">Saturates - <strong>10g</strong></p>
-            <p class="poimg">Sugars - <strong>18g</strong></p>
-            <p class="poimg">Salt - <strong>1g</strong></p>
-
-        </div>
-        <div style="width: 40%;">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Nostrum aperiam error cumque blanditiis quos, consectetur
-                optio aliquam voluptas dolore aliquid quasi veniam vero labore,
-                excepturi modi sapiente velit laborum fuga?
-            </p>
-        </div>
-        <div>
-            <p style="padding-left: 8px;
-             padding-right: 8px; 
-             padding-top: 15px; 
-             padding-bottom: 15px;
-             background-color: gainsboro;
-             border-radius: 10px;
-             width: 100px;">- 0 +</p>
-        </div>
-    </div>
-
+    </main>
 </body>
 
 </html>
