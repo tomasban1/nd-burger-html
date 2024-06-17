@@ -1,0 +1,58 @@
+.bottom{
+    margin-left: 30px;
+    display: flex;
+    
+}
+
+
+
+.plus {
+    display: flex;
+    padding: 10px;
+    width: 50px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    align-items: center;
+    
+
+}
+.minus{
+    text-decoration: none;
+        margin-right: 15px;
+        margin-bottom: 5px;
+}
+.plius{
+    text-decoration: none;
+    margin-left: 15px;
+    color: #5BA57A;
+}
+.price{
+margin-left: 200px;
+font-weight: bold;
+font-size: 25px;
+}
+.cartContainer{
+    display: flex;
+    margin-left: 95px;
+    margin-top: 5px;
+    background-color: #E4EFE9;
+    width: 130px;
+    font-size: 17px;
+    align-self: center;
+    border-radius: 10px;
+    
+
+}
+.addToCart{
+margin-left: 10px;
+align-content: center;
+text-decoration: none;
+height: 50px;
+color: #439966;
+}
+.dots{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #A3CDB4;
+
+}
