@@ -15,7 +15,11 @@
     color: #F06C4E;
 } */
 
-
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 
 .pagr{
         display: grid;
@@ -48,7 +52,7 @@
 }
 .menu{
     margin-top: 20px;
-    
+    height: 30px;
 }
 .link{
     margin-left: 100px;
@@ -61,7 +65,7 @@
         background-color:#FEF0ED;
         padding: 12px 30px;
         text-decoration: none;
-        float: right;
+        margin-top: 30px;
         margin-right: 30px;
         border-radius: 10px;
         color: black;

@@ -1,0 +1,44 @@
+.sideBurger{
+    margin-top: 80px;
+    background-color: #ff0051;
+    border-radius: 20px;
+    height: 400px;
+    padding: 30px;
+    background-color: #F8F7F5;
+    
+}
+.sideBurgerName{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 0;
+    width: 200px;
+    align-items: center
+    
+}
+.descript{
+    color: gray;
+    width: 200px;
+    text-align: center;
+    margin-left: 20px;
+    
+}
+.sideBottom{
+    display: flex;
+    flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+}
+.sidePrice{
+    margin-left: 80px;
+    margin-top: 25px;
+    font-size: 25px;
+}
+.sideButton{
+    background-color: #E1ECE5;
+    color: #439966;
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 10px;
+    justify-items: center;
+}
