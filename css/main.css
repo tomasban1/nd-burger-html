@@ -1,19 +1,4 @@
 
-/* .button { */
-    /* background-color: #F06C4E;
-    padding-top: 13px;
-    padding-left: 23px;
-    padding-right: 23px;
-    padding-bottom: 13px;
-    text-decoration: none;
-    margin-right: 13px;
-    color: white;
-    border-radius: 12px;
-}
-.button:last-child{
-    background-color: #FEF0ED;
-    color: #F06C4E;
-} */
 
 .main{
     display: flex;
