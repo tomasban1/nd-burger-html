@@ -1,0 +1,53 @@
+.side-main{
+    display: grid;
+    grid-template-columns: 300px 2fr;
+    gap: 45px;
+    margin-top: 60px;
+}
+
+.sideBurger{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 380px;
+    width: 270px;
+    padding: 30px;
+    background-color: #F8F7F5;
+    
+    
+}
+.sideBurgerName{
+    font-size: 30px;
+    justify-self: center;
+    margin: 0 0 0 40px;
+    width: 200px;
+    align-items: center
+    
+}
+.descript{
+    color: gray;
+    width: 270px;
+    text-align: center;
+    height: 20px;
+    
+}
+.sideBottom{
+    display: flex;
+    flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+}
+.sidePrice{
+    margin-left: 83px;
+    margin-top: 25px;
+    font-size: 25px;
+}
+.sideButton{
+    background-color: #E1ECE5;
+    color: #439966;
+    margin-left: 35px;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 10px;
+    justify-items: center;
+}
