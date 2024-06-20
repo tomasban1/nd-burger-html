@@ -15,7 +15,11 @@
     color: #F06C4E;
 } */
 
-
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 .pagr{
         display: grid;
         grid-template-columns: 80px 1fr;
